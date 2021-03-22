@@ -1,0 +1,5 @@
+language: en_US
+request-expiration: 30
+who-starts: 0
+wipe-chat: true
+block-messages: true

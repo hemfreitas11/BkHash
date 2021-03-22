@@ -1,0 +1,29 @@
+commands:
+
+  usage-format: '&cUsage: {usage}'
+
+  teste:
+    command: 'teste'
+    description: 'teste teste teste teste teste.'
+    usage: '/teste'
+
+info:
+  play-request:
+    accept-button: '&2&l[HERE]'
+    deny-button: '&c&l[HERE]'
+    accept-hover: '&2Click to accept.'
+    deny-hover: '&cClick to deny.'
+    line1: ' '
+    line2: '&a*--------------------*=/[|]\=*--------------------*'
+    line3: ' '
+    message1: '&aThe player &a&l{player} &awants to play tic-tac-toe with you.'
+    line4: ' '
+    message2: '&aClick {accept-button} &ato accept or click {deny-button} &ato deny.'
+    line5: ' '
+    message3: '&aThis request will expire in &2{seconds} &aseconds.'
+    line6: ' '
+    line7: '&a*-----------------------------------------------*'
+    line8: ' '
+
+error:
+  no-permission: 'teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste '

@@ -1,0 +1,5 @@
+name: BkHash
+version: ${project.version}
+main: me.bkrmt.bkhash.BkHash
+api-version: 1.13
+description: Tic-tac-toe plugin
