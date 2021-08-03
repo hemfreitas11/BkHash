@@ -5,7 +5,6 @@ import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.chat.HoverEvent;
 import net.md_5.bungee.api.chat.TextComponent;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import static me.bkrmt.bkhash.BkHash.plugin;
@@ -60,7 +59,7 @@ public class PlayGameRequest {
                                 tpaMessage.addExtra(" ");
                                 temp2 = new StringBuilder();
                             } else {
-                                temp2.append(ChatColor.translateAlternateColorCodes('&', temp1[c] + " "));
+                                temp2.append(Utils.translateColor(temp1[c] + " "));
                             }
 
                             if (c == temp1.length - 1) {
